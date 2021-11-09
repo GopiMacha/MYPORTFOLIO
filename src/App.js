@@ -228,7 +228,7 @@ function App() {
 <Button variant="primary" onClick={(event) => handleShow('Gmatch')} >
         More Info
       </Button>
-<a target="_blank" rel="noreferrer" href="https://ksugmatch.azurewebsites.net" className="btn btn-primary">Live Site</a>
+<a target="_blank" rel="noreferrer" href="https://ksuletsgame.azurewebsites.net/" className="btn btn-primary">Live Site</a>
       <Modal show={Gmatchshow} onClick={(event) => handleClose('Gmatch')}>
         <Modal.Header closeButton>
           <Modal.Title>GMATCH</Modal.Title>
