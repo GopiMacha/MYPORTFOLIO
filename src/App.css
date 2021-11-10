@@ -6,6 +6,13 @@
   align-items: center;
 
 }
+.bot{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: 200;
+  height: 25%;
+}
 .intro{
   height:20vh;
 }
@@ -174,6 +181,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .about-left, .about-session {
   display: flex !important;
   flex-direction: column !important;

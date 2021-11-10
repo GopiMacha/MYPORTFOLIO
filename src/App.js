@@ -97,6 +97,7 @@ function App() {
             </Col>
           </Row>
         </Container>
+        <div  dangerouslySetInnerHTML={{ __html: "<iframe class='bot', src='https://webchat.botframework.com/embed/qnqamakergopi-bot?s=6OXdxH1-KI4.BdFuTKckMXY7Xys6IvEQq0hSvi8Pq6Wcb51spOjz5HM' />"}}  style={{minWidth:'400px',width:'100%',minHeight:'500px'}}/>
       </div>
       <div className="about-session">
         <div className="about-left">
@@ -320,9 +321,10 @@ function App() {
    
      
       </div>
-      <div>
-      <iframe src='https://webchat.botframework.com/embed/qnqamakergopi-bot?s=6OXdxH1-KI4.BdFuTKckMXY7Xys6IvEQq0hSvi8Pq6Wcb51spOjz5HM'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
-      </div>
+      
+  
+     
+      
     </div>
   );
 }
