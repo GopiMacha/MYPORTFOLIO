@@ -320,6 +320,9 @@ function App() {
    
      
       </div>
+      <div>
+      <iframe src='https://webchat.botframework.com/embed/qnqamakergopi-bot?s=6OXdxH1-KI4.BdFuTKckMXY7Xys6IvEQq0hSvi8Pq6Wcb51spOjz5HM'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+      </div>
     </div>
   );
 }
