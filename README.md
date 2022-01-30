@@ -68,3 +68,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+""" bot
+        //<div  dangerouslySetInnerHTML={{ __html: "<iframe class='bot', src='https://webchat.botframework.com/embed/qnqamakergopi-bot?s=6OXdxH1-KI4.BdFuTKckMXY7Xys6IvEQq0hSvi8Pq6Wcb51spOjz5HM' />"}}  style={{minWidth:'400px',width:'100%',minHeight:'500px'}}/>
