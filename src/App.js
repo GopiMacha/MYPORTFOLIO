@@ -7,6 +7,12 @@ import css from './static/CSS.png'
 import bootstrap from './static/bootstrap.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import react from './static/React.png'
+import ansible from './static/ansible.png'
+import terraform from './static/terraform.png'
+import kubernetes from './static/kubernetes.png'
+import azure from './static/azure.jpg'
+import prometheus from './static/prometheus1.webp'
+import grafana from './static/grafana.svg'
 import redux from './static/Redux.png'
 import enzyme from './static/enzyme.png'
 import jest from './static/jest.png'
@@ -28,7 +34,7 @@ import Score3 from './static/Score3.png'
 import Score4 from './static/Score4.png'
 
 import React, { useState } from "react"
-import resume from './static/GopiResume.pdf'
+import resume from './static/GopiResume1.pdf'
 import resumeimage from './static/resume.png'
 
 function App() {
@@ -61,9 +67,27 @@ function App() {
         <Container>
           <Row>
             <Col md={3} xs={6} className="newcol">
+              <img alt="Ansible" src={ansible} style={{ width: "5vw" }}></img>
+              <h6 className="logo-text">Ansible</h6>
+            </Col>
+            <Col md={3} xs={6} className="newcol">
+              <img alt="Terraform" src={terraform} style={{ width: "5vw" }}></img>
+              <h6 className="logo-text">Terraform</h6>
+            </Col>
+            <Col md={3} xs={6} className="newcol">
+              <img alt="Kubernetes" src={kubernetes} style={{ width: "5vw" }}></img>
+              <h6 className="logo-text">Kubernetes</h6>
+            </Col>
+            <Col md={3} xs={6} className="newcol">
+              <img alt="Azure" src={azure} style={{ width: "5vw" }}></img>
+              <h6 className="logo-text">Azure</h6>
+            </Col>
+          </Row>
+          <Row>
+            {/*<Col md={3} xs={6} className="newcol">
               <img alt="Javascript" src={javascript} style={{ width: "5vw" }}></img>
               <h6 className="logo-text">Javascript</h6>
-            </Col>
+            </Col> 
             <Col md={3} xs={6} className="newcol">
               <img alt="Html5" src={html} style={{ width: "5vw" }}></img>
               <h6 className="logo-text">Html5</h6>
@@ -75,25 +99,21 @@ function App() {
             <Col md={3} xs={6} className="newcol">
               <img alt="Bootstrap" src={bootstrap} style={{ width: "5vw" }}></img>
               <h6 className="logo-text">Bootstrap</h6>
-            </Col>
+            </Col> */}
 
           </Row>
           <Row style={{ marginTop: '5px' }}>
             <Col md={3} xs={6} className="newcol">
+              <img alt="Prometheus" src={prometheus} style={{ width: "5vw" }}></img>
+              <h6 className="logo-text">Prometheus</h6>
+            </Col>
+            <Col md={3} xs={6} className="newcol">
+              <img alt="Grafana" src={grafana} style={{ width: "5vw" }}></img>
+              <h6 className="logo-text">Grafana</h6>
+            </Col>
+            <Col md={3} xs={6} className="newcol">
               <img alt="React" src={react} style={{ width: "5vw" }}></img>
               <h6 className="logo-text">React</h6>
-            </Col>
-            <Col md={3} xs={6} className="newcol">
-              <img alt="Redux" src={redux} style={{ width: "5vw" }}></img>
-              <h6 className="logo-text">Redux</h6>
-            </Col>
-            <Col md={3} xs={6} className="newcol">
-              <img alt="Enzyme" src={enzyme} style={{ width: "5vw" }}></img>
-              <h6 className="logo-text">Enzyme</h6>
-            </Col>
-            <Col md={3} xs={6} className="newcol">
-              <img alt="Jest" src={jest} style={{ width: "5vw" }}></img>
-              <h6 className="logo-text">Jest</h6>
             </Col>
           </Row>
         </Container>
@@ -102,7 +122,9 @@ function App() {
       <div className="about-session">
         <div className="about-left">
           <p className="ABOUT_ME">ABOUT ME</p>
-          <p className="about-me-p"> Hi Stranger! Welcome to my page. Let me introduce myself.I am a Results-driven and capable professional with extensive experience in leading end-to-end software development processes and designing complex software solutions. Proven expertise in designing software, analyzing data, and resolving complex technical problems. Well-versed in curating technical plans outlining the structure and integration of new applications. Demonstrated history in successfully delivering key projects, and assigned tasks in a timely and effective manner. Proactive communicator with the ability to collaborate with cross-functional teams and procure innovative ideas to enhance product features and functionality. Employs professionalism and a diverse skillset.   </p>
+          <p className="about-me-p"> Hello, and welcome to my page! I am a results-driven Site Reliability Engineer (SRE) with a strong background in end-to-end software development processes and designing complex, scalable solutions. I specialize in building resilient systems, automating infrastructure, and ensuring high availability for critical services. With proven expertise in designing software, analyzing data, and resolving technical issues, I have a track record of successfully delivering key projects on time.
+
+            I thrive in environments that demand collaboration across cross-functional teams to enhance product reliability and performance. My experience spans curating technical roadmaps, improving operational efficiencies, and implementing proactive monitoring strategies to prevent downtime. I am passionate about working with modern tools and technologies to ensure that applications run smoothly and efficiently, focusing on both performance and scalability.   </p>
         </div>
         <div className="about-right">
           <img alt="pic" src={image} className="portfolio-pic"></img>
