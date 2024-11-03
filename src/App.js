@@ -1,10 +1,10 @@
 
 import './App.css';
 import { Container, Row, Col, Carousel, Modal, Button } from 'react-bootstrap';
-import javascript from './static/javascript.png'
-import html from './static/Html 5.png'
-import css from './static/CSS.png'
-import bootstrap from './static/bootstrap.png'
+// import javascript from './static/javascript.png'
+// import html from './static/Html 5.png'
+// import css from './static/CSS.png'
+// import bootstrap from './static/bootstrap.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import react from './static/React.png'
 import ansible from './static/ansible.png'
@@ -13,9 +13,9 @@ import kubernetes from './static/kubernetes.png'
 import azure from './static/azure.jpg'
 import prometheus from './static/prometheus1.webp'
 import grafana from './static/grafana.svg'
-import redux from './static/Redux.png'
-import enzyme from './static/enzyme.png'
-import jest from './static/jest.png'
+// import redux from './static/Redux.png'
+// import enzyme from './static/enzyme.png'
+// import jest from './static/jest.png'
 import image from './static/GM.jpg'
 import github from './static/github.png'
 import linkedin from './static/linkedin.png'
